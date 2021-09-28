@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('/images/bg-pattern-top-desktop.svg'), url('/images/bg-pattern-bottom-desktop.svg');
+    background-position: right 70vw bottom 70vh, left 46vw top 30vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: Spartan;
+    
+}
+.container {
+    display:flex;
+    flex-direction: column;
+    width: autos;
+      
+}
+.container1 {
+    display: flex;
+    flex-direction: row;
+    width: 60%; 
+}
+
+h1 {
+    color:  hsl(300, 43%, 22%); 
+}  
+h5 {
+    color:  hsl(333, 80%, 67%);
+    padding: 0;
+    margin: 0;
+   
+} 
+.stars {
+    width: 60%;
+}
+.star1 {
+    background-color:hsl(300, 24%, 96%);
+    border-radius: 7px;
+}
+.star2 {
+    background-color:hsl(300, 24%, 96%);
+    border-radius: 7px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 10px;
+
+}
+img {
+    width: 10%;
+}
+  
+.container2{
+    display: flex;
+    
+    
+    
+}
+
+.box1 {
+    background: hsl(300, 43%, 22%);
+    border-radius: 7px;
+    padding: 20px;
+    margin: 20px 20px 20px 0;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f1f1f1;
+    
+}
+.box2 {
+    background: hsl(300, 43%, 22%);
+    border-radius: 7px;
+    padding: 20px;
+    margin: 35px 20px 20px 20px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f1f1f1;
+    
+}
+.box3 {
+    background: hsl(300, 43%, 22%);
+    border-radius: 7px;
+    padding: 20px;
+    margin: 55px 20px 20px 20px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f1f1f1;
+}
+.box-img {
+    border-radius: 50%;
+    width: 2%;
+    position:absolute;
+    transform: translate(-350%,-210%);
+}
